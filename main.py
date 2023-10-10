@@ -66,6 +66,7 @@ class DecalInstaller:
 
         config.set("acplugin_decaltexture_selectedtexture_blue", "GCBOctaneHome")
         config.set("acplugin_decaltexture_selectedtexture_orange", "GCBOctaneHome")
+        config.set("cl_itemmod_enabled", "1")
         config.set("cl_itemmod_code", "hAPCB1wABMIriAECAAA=", "Current loadout code")
         config.save()
         logging.info("Config set and saved.")
